@@ -1,0 +1,31 @@
+МиоАтлас — 3D-модель мышц
+
+Z-Anatomy — The libre 3D atlas of anatomy, CC BY-SA 4.0
+https://www.z-anatomy.com/
+https://github.com/Z-Anatomy/Models-of-human-anatomy
+Design, 3D and anatomy: Gauthier Kervyn and Z-Anatomy contributors.
+
+BodyParts3D — The Database Center for Life Science, CC BY-SA 2.1 Japan
+Original anatomical model: Kousaku Okubo / BodyParts3D.
+https://dbarchive.biosciencedbc.jp/en/bodyparts3d/
+
+The bundled muscles.glb is an unmodified copy of the web adaptation by
+tiralonghipol for Free Muscles, commit 605dd1ca351421ad874a03f673a2a3f915ab254e.
+https://github.com/tiralonghipol/free-muscles/tree/605dd1ca351421ad874a03f673a2a3f915ab254e
+The upstream adaptation extracts muscles and bones, removes connective
+tissue, reduces polygons, adds group metadata and compresses the geometry.
+The bundled muscles-female.glb is the illustrative female variant from
+Fit Mit With, commit 4120ee68b6604b8f2f69105d6de6166fad4734c4.
+https://github.com/slfresh/fitmitwith-anatomy-atlas/tree/4120ee68b6604b8f2f69105d6de6166fad4734c4
+See FEMALE-ATTRIBUTION.txt for the complete upstream notices and adaptation
+details. The variant is a deformation of the original male geometry with
+illustrative proportions.
+Female GLB SHA-256: cf5350b62fdb42702b9227a4e8ec4fc1a7bffffef2601cc1c7cc57a72b3bfc99
+
+At runtime МиоАтлас groups surfaces, adjusts figure dimensions, replaces the
+visible head with a custom mannequin shell and adds display materials,
+selection highlights and camera controls.
+
+The bundled models and their anatomical adaptations are available under CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Male GLB SHA-256: f2100ae79cd7fc1d759248b7bbe928a461f93087b1a53a964edc47837d821c67

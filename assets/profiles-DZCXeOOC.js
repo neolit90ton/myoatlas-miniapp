@@ -1,0 +1,1 @@
+var e={male:{height:178,weight:75},female:{height:165,weight:60}},t={height:{label:`Рост`,unit:`см`,min:145,max:205},weight:{label:`Вес`,unit:`кг`,min:40,max:125}};export{t as n,e as t};
